@@ -1,0 +1,25 @@
+CREATE Database RetailStore
+
+Create Table Merchandice (
+	ItemName Char(50),
+	QuantityOnHand INT(4),
+	QuantitySold INT(4),
+	CostPerItem float(10),
+	TotalSales float(10)
+);
+
+Insert into Merchandice
+values
+('Hammers', 5000, 3500, 5.00, 17500),
+('Apples', 7000, 1000, 0.75, 750),
+('Cameras', 1000, 54, 150.00, 8100),
+('Pokemon Lets Go Pikachu', 100, 20, 59.99, 1199.80),
+('Supplements', 5000, 2000, 2.75, 5500)
+
+SELECT * from Merchandice
+
+SELECT * FROM Merchandice
+ORDER BY TotalSales;
+
+SELECT * FROM Merchandice
+ORDER BY ItemName ASC;

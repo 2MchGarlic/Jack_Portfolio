@@ -1,0 +1,97 @@
+CREATE TABLE Games (
+	GameID int,
+	GameName char(50),
+	QuantityProduced int,
+	QuantitySold int,
+	CostPerItem float(4)
+	TotalSales float(255))
+
+Insert into Games (
+	1.
+	StjVp
+	'The Simpsons Hit & Run'
+	520
+	230
+	60
+	13800
+
+Instert into Games (
+	2.
+	dSWFP
+	'Fortnite'
+	500
+	500
+	60
+	30000
+
+Insert into Games (
+	3.
+	6JYK0
+	'Sonic 06'
+	50
+	5
+	10
+	50
+
+Insert into Games (
+	4.
+	3nvNC
+	'Mario Kart Double Dash'
+	100
+	69
+	30
+	2070
+
+Insert into Games (
+	5.
+	6jZgv
+	'Journey To the Savage Planet'
+	70
+	50
+	6
+	300
+
+Insert into Games (
+	6.
+	Y9vXL
+	'Apex Legends: Bloodhound Edition'
+	70
+	55
+	95.95
+	5277
+
+Insert into Games (
+	7.
+	7MKB1
+	'Pokemon Emerald'
+	75000
+	65000
+	59.99
+	3899350
+
+Insert into Games (
+	8.
+	Ssrx7
+	'Super Mario Bros.'
+	95
+	95
+	69.99
+	6649
+
+Insert into Games (
+	9.
+	d1fRq
+	'Spider-Man: Remastered'
+	99999
+	99999
+	59.99
+	5998940
+
+Insert into Games (
+	10.
+	tIbF8
+	'Michael Jackson The Experience'
+	42
+	20
+	6.99
+	139

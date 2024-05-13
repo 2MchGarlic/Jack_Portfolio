@@ -1,0 +1,21 @@
+create database EpicAMGamers
+
+create table FavoriteVideoGames (
+GamerTag varchar(30),
+GamerLastName varchar(30),
+GamerFirstName varchar(15),
+FavoriteGame varchar(50),
+Developer varchar(100), 
+PreferredSystem varchar(50),
+Playtime int
+)
+
+Insert Into FavoriteVideoGames 
+Values 
+('mickeymouse','Skornicka','Nickolas','Fallout New Vegas','Obsidian','PC',400),
+('Zuesz-_','Seigo','Wyatt','Mass Effect','Bioware','PC',20),
+('deadginger07','Everett','Shane','Portal 2','Valve','PC',150),
+('tinytaco','SantaMaria','Huli','Red Dead Redemption 2','Rockstar Games','XBOX',450),
+('2MchGarlic','Brundage','Jack','Batman Arkham Knight','Rocksteady Studios','XBOX',5),
+('Vinezyl','Deverman','Breckin','GTA 5','Rockstar Games','PC',4800),
+('Pureparox','DeLano','Adam','Ark Survival Evolved','Wildcard','PC',14800)
